@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/ress.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/vintalight.css" />
+    <script
+      src="https://kit.fontawesome.com/811a4b5ae2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      (function(d) {
+        var config = {
+            kitId: "bps4ekw",
+            scriptTimeout: 3000,
+            async: true
+          },
+          h = d.documentElement,
+          t = setTimeout(function() {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function() {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <script src="js/vintalight.js"></script>
+
+    <title>kakeru</title>
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <a class="kakerulogo" href="#">kakeru</a>
+        <a href="#"><i class="fas fa-bars"></i></a>
+      </div>
+      <div class="header_main">
+        <h1>kakeru</h1>
+      </div>
+    </header>
+    <body>
+      <article class="article_box">
+        <h2 class="article_title">殺して埋める。</h2>
+        <p class="article_paragraph">
+          来年は彼女できるように紳士に立ち振る舞いたいと思いました。ち○ぽ
+        </p>
+      </article>
+      <div class="gallery_container">
+        <h2 class="gallery">Gallery</h2>
+      </div>
+
+      <div class="grid">
+        <label for="pic-1" class="grid-item"
+          ><img src="images/kakeru1.jpg"
+        /></label>
+        <label for="pic-2" class="grid-item"
+          ><img src="images/kakeru2.jpg"
+        /></label>
+        <label for="pic-3" class="grid-item"
+          ><img src="images/kakeru3.jpg"
+        /></label>
+        <label for="pic-4" class="grid-item"
+          ><img src="images/kakeru4.jpg"
+        /></label>
+        <label for="pic-5" class="grid-item"
+          ><img src="images/kakeru5.jpg"
+        /></label>
+        <label for="pic-6" class="grid-item"
+          ><img src="images/kakeru6.jpg"
+        /></label>
+        <label for="pic-7" class="grid-item"
+          ><img src="images/kakeru7.jpg"
+        /></label>
+        <label for="pic-8" class="grid-item"
+          ><img src="images/kakeru8.jpg"
+        /></label>
+
+        <input type="checkbox" id="pic-1" />
+        <label for="pic-1" class="lightbox"
+          ><img src="images/kakeru1.jpg"
+        /></label>
+        <input type="checkbox" id="pic-2" />
+        <label for="pic-2" class="lightbox"
+          ><img src="images/kakeru2.jpg"
+        /></label>
+        <input type="checkbox" id="pic-3" />
+        <label for="pic-3" class="lightbox"
+          ><img src="images/kakeru3.jpg"
+        /></label>
+        <input type="checkbox" id="pic-4" />
+        <label for="pic-4" class="lightbox"
+          ><img src="images/kakeru4.jpg"
+        /></label>
+        <input type="checkbox" id="pic-5" />
+        <label for="pic-5" class="lightbox"
+          ><img src="images/kakeru5.jpg"
+        /></label>
+        <input type="checkbox" id="pic-6" />
+        <label for="pic-6" class="lightbox"
+          ><img src="images/kakeru6.jpg"
+        /></label>
+        <input type="checkbox" id="pic-7" />
+        <label for="pic-7" class="lightbox"
+          ><img src="images/kakeru7.jpg"
+        /></label>
+        <input type="checkbox" id="pic-8" />
+        <label for="pic-8" class="lightbox"
+          ><img src="images/kakeru8.jpg"
+        /></label>
+      </div>
+    </body>
+    <footer>
+      <div class="sns_icon">
+        <a href="https://twitter.com/kakerufriends"><i class="fab fa-twitter-square"></i></a>
+        <p><small>copyright ShionWebGym all right reserved</small></p>
+      </div>
+    </footer>
+  </body>
+</html>
